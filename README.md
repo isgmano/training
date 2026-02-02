@@ -8,5 +8,6 @@ Here are the important materials that you will need to refer to during the lab e
 
 
 Labs
-- [Lab-01. KENG on a single VM](./lab-01/README.md)
+- [Lab-01. KENG with Ixia-C](./lab-01/README.md)
 - [Lab-02. KENG for BGP Convergence](./lab-02/README.md)
+- [Lab-03. KENG with Hardware Ports](./lab-03/README.md)

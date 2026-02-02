@@ -2,7 +2,7 @@
 
 ## Overview
 
-This lab uses [snappi](https://github.com/open-traffic-generator/snappi) to control the free Ixia-c Community Edition (OTG Test Tool) which is deployed via vanilla Docker Engine commands and utilized to send raw traffic in a back-to-back topology. This lab consists of 1x Keng Controller and 2x Ixia-c Traffic Engine containers.
+This lab uses [snappi](https://github.com/open-traffic-generator/snappi) to control the free Ixia-c Community Edition (OTG Test Tool) which is deployed via vanilla Docker Engine commands and utilized to send raw traffic in a back-to-back topology. This lab consists of 1x KENG Controller and 2x Ixia-c Traffic Engine containers.
 The test script has been already created before this lab. The test includes only raw traffic (no protocol emulation) and performs the following actions:
 - Validates that total packet sent and received on both interfaces is as expected using the port metrics.
 - Sends 2000 packets between the two ports at a rate of 100 packets per second for a total of 20 seconds.
@@ -30,7 +30,7 @@ git clone https://github.com/isgmano/training.git
 
 ## Deployment
 
-We need to pull the desired version of the Ixia-c Controller and Ixia-c Traffic Engine from the GitHub Container Registry
+We need to pull the desired version of the KENG Controller and Ixia-c Traffic Engine from the GitHub Container Registry
 
 ```Shell
 docker pull ghcr.io/open-traffic-generator/keng-controller:1.40.0-15
@@ -70,7 +70,7 @@ docker run -d --name traffic-engine-2 --network=host -e ARG_IFACE_LIST=virtual@a
 
 All the previous commands specify the names of the containers, and the name of the images used to boot these. All the containers are using host networking which is a type of network attachment that ensures direct connection between the container and the Linux host.  
 
-Each container listens for connections on a default port (TCP 8443 for Ixia-c Controller and TCP 5555 for Ixia-c Traffic Engine). The default port can be overridden with a specific command parameter as seen for the two Ixia-c Traffic Engine containers. Please note that all containers sharing the same namespace must listen on different TCP ports. 
+Each container listens for connections on a default port (TCP 8443 for KENG Controller and TCP 5555 for Ixia-c Traffic Engine). The default port can be overridden with a specific command parameter as seen for the two Ixia-c Traffic Engine containers. Please note that all containers sharing the same namespace must listen on different TCP ports. 
 
 Furthermore, each Ixia-c Traffic Engine container must have one (or more) test interfaces. In this lab we are using virtual test interfaces veth0 and veth1. This means the test traffic stays inside the Linux host but in most cases, this type of test will probably use an existing interface which in turn gets connected to other network devices. 
 
