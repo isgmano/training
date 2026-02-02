@@ -6,8 +6,8 @@ import time
    
 def Test():
     test_const = {
-        "p1_location": "10.36.84.12;6;7",
-        "p2_location": "10.36.84.12;6;8",
+        "p1_location": "p1_location",
+        "p2_location": "p2_location",
         "pktRate": 500,
         "pktCount": 1000,
         "pktSize": 128,

@@ -30,7 +30,7 @@ Every user should have received a chassis with at least 2 OTG capable ports. We 
 cd ~/training/lab-03 && vim lab-03.py
 ```
 
-Observe the controller location and the two traffic engine locations used as otg ports.
+Observe the controller location and the two traffic engine locations used as otg ports. Modify the location to match your assignments.
 
 ![alt text](../Docs/images/lab-03/lab3-2.png)
 
@@ -41,14 +41,27 @@ python3 lab-03.py
 ```
 ![alt text](../Docs/images/lab-03/lab3-3.png)
 
-
-Get the statistics from the controller user REST API curl commands
+otg-gnmi-server container is used for metrics. We can retrieve any statistics or states.
+Let's install gnmi client [gnmic](https://github.com/openconfig/gnmic)
 
 ```Shell
-curl -k -d '{"choice":"flow"}' -X POST https://127.0.0.1:8443/monitor/metrics
-curl -k -d '{"choice":"port"}' -X POST https://127.0.0.1:8443/monitor/metrics
+bash -c "$(curl -sL https://get-gnmic.openconfig.net)"
 ```
 
+Let's get some port and flow stats
+
+```Shell
+gnmic -a 127.0.0.1:50051 --skip-verify -u admin -p admin get --path "ports"
+gnmic -a 127.0.0.1:50051 --skip-verify -u admin -p admin get --path "flows"
+```
+![alt text](../Docs/images/lab-03/lab3-4.png)
+
+Let's get the ARP tables
+
+```Shell
+gnmic -a 127.0.0.1:50051 --skip-verify -u admin -p admin get --path "interfaces"
+```
+![alt text](../Docs/images/lab-03/lab3-5.png)
 
 ## Cleanup
 
@@ -57,5 +70,6 @@ Stop and remove the previously created containers.
 ```Shell
 cd ~/training/lab-03 && docker compose down
 ```
+
 
 
