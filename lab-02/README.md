@@ -37,7 +37,7 @@ Observe the containerlab topology file. Notice the parameters are the same as th
 - Deploy the topology using containerlab.
 
 ```Shell
-cd ~/ac4-workshop/lab-02/ && clab deploy
+cd ~/training/lab-02/ && clab deploy
 ```
 ![alt text](../Docs/images/lab-02/lab2-4.png)
 
@@ -123,7 +123,7 @@ curl -k -X POST https://clab-lab-02-controller:8443/control/state -d @body-stop-
 - Destroy the clab topology
 
 ```Shell
-cd ~/ac4-workshop/lab-02/ && clab destroy --cleanup
+cd ~/training/lab-02/ && clab destroy --cleanup
 ```
 
 
