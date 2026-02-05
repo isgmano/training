@@ -8,7 +8,7 @@ Here are the important materials that you will need to refer to during the lab e
 
 
 IxNetworkLabs
-- [IxN-lab-01. EVPN VXLAN IP Aliasing](./IxN-labo1/README.md)
+- [IxN-lab-01. EVPN VXLAN IP Aliasing](./IxN-lab01/README.md)
 
 KENG/OTG Labs
 - [Lab-01. KENG with Ixia-C](./lab-01/README.md)
