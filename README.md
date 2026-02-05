@@ -6,8 +6,10 @@ This repository contains KENG training labs. Each lab has its own instructions R
 Here are the important materials that you will need to refer to during the lab exercises.
 * [Overview presentation of OTG concepts](./Docs/AC4-WSA4.pdf)
 
+IxNetwork Labs
+- 
 
-Labs
+KENG/OTG Labs
 - [Lab-01. KENG with Ixia-C](./lab-01/README.md)
 - [Lab-02. KENG for BGP Convergence](./lab-02/README.md)
 - [Lab-03. KENG with Hardware Ports](./lab-03/README.md)
