@@ -1,9 +1,12 @@
 # Training Materials
 
-This repository contains KENG training labs. Each lab has its own instructions README file where users can follow along to get familiar with Open Traffic Generator (OTG) concepts. Even though the labs are independent of each other, it is strongly recommended to follow them in sequence.
+This repository contains IxNetwork and KENG training labs. Each lab has its own instructions README file where users can follow along to get familiar with each application. Even though the labs are independent of each other, it is strongly recommended to follow them in sequence.
 
 
 Here are the important materials that you will need to refer to during the lab exercises.
+* [IxNetwork concepts](https://ixnetwork-portal-216136305446.us-central1.run.app/)
+* [OpenIxia](https://www.openixia.com/)
+* [OTG docs](https://ixia-c.dev/)
 * [Overview presentation of OTG concepts](./Docs/AC4-WSA4.pdf)
 
 
