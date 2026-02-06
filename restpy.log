@@ -1,0 +1,16 @@
+2026-02-06 05:26:07 [ixnetwork_restpy.connection tid:8744528960] [INFO] Using IxNetwork api server version 26.0.2601.6
+2026-02-06 05:26:07 [ixnetwork_restpy.connection tid:8744528960] [INFO] User info IxNetwork/localhost/admin-1-505581
+2026-02-06 05:26:08 [ixnetwork_restpy.connection tid:8744528960] [INFO] Assign ports
+2026-02-06 05:26:10 [ixnetwork_restpy.connection tid:8744528960] [INFO] Creating Topology Group 1
+2026-02-06 05:26:11 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring vlanID
+2026-02-06 05:26:12 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring IPv4
+2026-02-06 05:26:12 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring BgpIpv4Peer 1
+2026-02-06 05:26:14 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring Network Group 1
+2026-02-06 05:26:15 [ixnetwork_restpy.connection tid:8744528960] [INFO] Creating Topology Group 2
+2026-02-06 05:26:16 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring vlanID
+2026-02-06 05:26:16 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring IPv4 2
+2026-02-06 05:26:17 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring BgpIpv4Peer 2
+2026-02-06 05:26:18 [ixnetwork_restpy.connection tid:8744528960] [INFO] Configuring Network Group 2
+2026-02-06 05:26:19 [ixnetwork_restpy.connection tid:8744528960] [INFO] Adding test port hosts [10.36.84.12]...
+2026-02-06 05:26:24 [ixnetwork_restpy.connection tid:8744528960] [INFO] PortMapAssistant._add_hosts duration: 5.381139039993286secs
+2026-02-06 05:26:24 [ixnetwork_restpy.connection tid:8744528960] [INFO] Connecting virtual ports to test ports using location
