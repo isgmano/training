@@ -15,7 +15,7 @@ We will only require 1 VM for this lab. Deployment and logical topology below.
 
 ## Prerequisites
 
-**Let's open terminals to VM1 and VM2**
+**Let's open terminals to cloudshare VM**
 - SSH command example below for Windows using PowerShell or CMD.
 
 `
