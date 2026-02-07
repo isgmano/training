@@ -15,6 +15,27 @@ We will only require 1 VM for this lab. Deployment and logical topology below.
 
 ## Prerequisites
 
+**Let's open terminals to VM1 and VM2**
+- SSH command example below for Windows using PowerShell or CMD.
+
+`
+ssh -i C:\\Users\\USER\\Downloads\\ENA8FWiOpusuWSA3PIMPcocw2_aws_rsa ubuntu@VM_EXTERNAL_IP
+`
+
+- SSH command example below for Linux / MacOS terminal. For MAC you may have to set the permission of the private key first using `chmod 600 /path/to/keyfile`
+
+`
+ssh -i /home/USER/Downloads/ENA8FWiOpusuWSA3PIMPcocw2_aws_rsa ubuntu@VM_EXTERNAL_IP
+`
+
+- Or optionally, you can set this up in Visual Studio Code. It will be much easier to modify files and start new terminals. You will need to install the “Remote SSH” and “Remote Explorer” extensions then add the VM hosts by editing the **ssh config** to add the host and include the IdentifyFile parameter as seen below. Then back in VsCode, refresh the list of hosts, connect, follow the prompts to continue and open the ***/home/ubuntu*** folder.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 Install snappi
 
 ```Shell
