@@ -12,9 +12,15 @@ In this lab you will use an exisiting session in your IxNetwork web ui client th
 * Rename you IxNetwork session like this "yourname-S1000"
 * Make sure the session is open before you run the script
 * You will need a python environment to run the test (script). 
-    * if you have your VS code setup use it to run and debug. You can use break points to understand workflow
-    * You can also use you Linux VM for this exercise. 
+    * If you have your VS code setup use it to run and debug. You can use break points to understand workflow
+    * You can also use your Linux VM for this exercise. 
 
+Tip: Incase you do not have a Python env you can create a venv to install REST Py:
+```Shell
+python -m venv ixnvenv
+source ixnvenv/bin/activate
+pip install ixnetwork-restpy
+```
 ## Prerequisites
 
 Install IxNetwork-restpy
@@ -30,7 +36,7 @@ Navigate to script directory and open in in VSCode or IDE or use vi in Linux
 cd cd ~/training/IxN-lab02-A/
 vi bgpTest.py
 ```
-If you are using VSCode) in the lines 79, 106, 134, 143, 168
+If you are using VSCode put breakpoints in the lines 79, 106, 134, 143, 168
 Start the execution in debug mode
 ![alt text](image.png)
 
