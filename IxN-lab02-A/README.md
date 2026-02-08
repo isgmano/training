@@ -15,6 +15,12 @@ In this lab you will use an exisiting session in your IxNetwork web ui client th
     * If you have your VS code setup use it to run and debug. You can use break points to understand workflow
     * You can also use your Linux VM for this exercise. 
 
+Tip: Incase you do not have a Python env you can create a venv to install REST Py:
+```Shell
+python -m venv ixnvenv
+source ixnvenv/bin/activate
+pip install ixnetwork-restpy
+```
 ## Prerequisites
 
 Install IxNetwork-restpy
