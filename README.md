@@ -1,18 +1,21 @@
 # Training Materials
 
-This repository contains KENG training labs. Each lab has its own instructions README file where users can follow along to get familiar with Open Traffic Generator (OTG) concepts. Even though the labs are independent of each other, it is strongly recommended to follow them in sequence.
+This repository contains IxNetwork and KENG training labs. Each lab has its own instructions README file where users can follow along to get familiar with each application. Even though the labs are independent of each other, it is strongly recommended to follow them in sequence.
 
 
 Here are the important materials that you will need to refer to during the lab exercises.
+* [IxNetwork concepts](https://ixnetwork-portal-216136305446.us-central1.run.app/)
+* [OpenIxia](https://www.openixia.com/)
+* [OTG docs](https://ixia-c.dev/)
 * [Overview presentation of OTG concepts](./Docs/AC4-WSA4.pdf)
 
 
-IxNetworkLabs
+## IxNetworkLabs
 - [IxN-lab-01. EVPN VXLAN IP Aliasing](./IxN-lab01/README.md)
 - [IxN-lab-02. BGP Configuration Through Wizard](./IxN-lab02/README.md)
 - [IxN-lab-02-A. Automate end to end BGP test](./IxN-lab02-A/README.md)
 
-KENG/OTG Labs
+## KENG/OTG Labs
 - [Lab-01. KENG with Ixia-C](./lab-01/README.md)
 - [Lab-02. KENG for BGP Convergence](./lab-02/README.md)
 - [Lab-03. KENG with Hardware Ports](./lab-03/README.md)
