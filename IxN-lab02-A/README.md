@@ -13,7 +13,7 @@ In this lab you will use an exisiting session in your IxNetwork web ui client th
 * Make sure the session is open before you run the script
 * You will need a python environment to run the test (script). 
     * if you have your VS code setup use it to run and debug. You can use break points to understand workflow
-    * You can also use you Linux VM for this exercise. 
+    * You can also use your Linux VM for this exercise. 
 
 ## Prerequisites
 
