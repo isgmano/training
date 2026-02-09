@@ -41,7 +41,10 @@ Install snappi
 ```Shell
 python3 -m pip install --upgrade snappi
 ```
-
+Incase this fails use 
+```Shell 
+python3 -m pip install --upgrade snappi --break-packages flag 
+```
 Clone this repo
 
 ```Shell
