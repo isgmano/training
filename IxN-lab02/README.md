@@ -132,20 +132,20 @@ Click **Next** to continue.
 
 #### Topology 1
 
-- **IP Address:** `10.10.10.10`
-- **Gateway:** `10.10.10.20`
+- **IP Address:** `20.20.20.10`
+- **Gateway:** `20.20.20.20`
 
 #### Topology 2
 
-- **IP Address:** `10.10.10.20`
-- **Gateway:** `10.10.10.10`
+- **IP Address:** `20.20.20.20`
+- **Gateway:** `20.20.20.10`
 
 ### BGP Peer Configuration
 
 - **BGP Peer 1**
-  - DUT IP: `10.10.10.20`
+  - DUT IP: `20.20.20.20`
 - **BGP Peer 2**
-  - DUT IP: `10.10.10.10`
+  - DUT IP: `20.20.20.10`
 
 ### Enable Learned Routes Filter
 
