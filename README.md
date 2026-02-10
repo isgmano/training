@@ -11,7 +11,7 @@ Here are the important materials that you will need to refer to during the lab e
 
 
 ## IxNetworkLabs
-- [IxN-lab-01. EVPN VXLAN IP Aliasing](./IxN-lab01/README.md)
+- [IxN-lab-01. IxNetwork Basic Lab](./IxN-lab01/README.md)
 - [IxN-lab-02. BGP Configuration Through Wizard](./IxN-lab02/README.md)
 - [IxN-lab-02-A. Automate end to end BGP test](./IxN-lab02-A/README.md)
 - [IxN-lab-03. EVPN VXLAN IP Aliasing](./IxN-lab03/README.md)
