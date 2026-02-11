@@ -48,7 +48,11 @@ docker network ls
 docker inspect clab
 ```
 
-- Open the test script **lab-02.py** and modify the location attributes for each port along with the controller address. Also, please set the **packet count** to 60000. 
+- Open the test script **lab-02.py** and modify the location attributes for each port along with the controller address. Also, please set the **packet count** to 60000.
+Example of the location attributes:
+  "p1_location": "clab-lab-02-te1:5551+clab-lab-02-te1:50071",
+  "p2_location": "clab-lab-02-te2:5551+clab-lab-02-te2:50071",
+  "p3_location": "clab-lab-02-te3:5551+clab-lab-02-te3:50071",
 
 ![alt text](../Docs/images/lab-02/lab2-5.png)
 
