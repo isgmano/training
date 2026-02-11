@@ -50,10 +50,11 @@ docker inspect clab
 
 - Open the test script **lab-02.py** and modify the location attributes for each port along with the controller address. Also, please set the **packet count** to 60000.
 Example of the location attributes:
+```Shell
   "p1_location": "clab-lab-02-te1:5551+clab-lab-02-te1:50071",
   "p2_location": "clab-lab-02-te2:5551+clab-lab-02-te2:50071",
   "p3_location": "clab-lab-02-te3:5551+clab-lab-02-te3:50071",
-
+```
 ![alt text](../Docs/images/lab-02/lab2-5.png)
 
 - After the routes are advertised by each otg peer, the script will check bgp states and routes then traffic will be sent from otg port 1 towards the destination routes 201.30.30.x/32. Initially, the router should forward these packets towards otg port 2 (preferred route) but after a "link-down" operation is initiated on otg port 2, the traffic should converge towards otg port 3. The convergence time is the total lost packets divided by the packet rate.
